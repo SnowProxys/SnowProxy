@@ -23,4 +23,4 @@ wget -q https://github.com/SnowProxys/SnowProxy/raw/main/snow
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
 echo -e "${GREEN}Execute proxy with this command: ./snow${ENDCOLOR}"
-chmod +x ditya
+chmod +x snow
