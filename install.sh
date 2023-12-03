@@ -19,7 +19,7 @@ pkg install curl
 pkg install libenet
 pkg install wget
 clear
-wget -q https://github.com/SnowProxys/SnowProxy/raw/main/winter
+wget -q https://github.com/SnowProxys/SnowProxy/raw/main/snow
 sleep 1
 echo -e "${GREEN}SnowProxy is now Installed${ENDCOLOR}"
 echo -e "${RED}Snow Proxy Premium${ENDCOLOR}"
