@@ -5,7 +5,7 @@ ENDCOLOR="\e[0m"
 clear
 echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
-if [ -f "snow" ]; then
+if [ -f "winter" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
     rm snow
     sleep 1
@@ -21,6 +21,8 @@ pkg install wget
 clear
 wget -q https://github.com/SnowProxys/SnowProxy/raw/main/snow
 sleep 1
-echo -e "${GREEN}SnowProxy is now Installed${ENDCOLOR}"
-echo -e "${GREEN}Execute proxy with this command: ./snow${ENDCOLOR}"
-chmod +x snow_proxy
+echo -e "${GREEN}WinterProxy is now Installed${ENDCOLOR}"
+echo -e "${RED}Winter Proxy Premium${ENDCOLOR}"
+sleep 2
+echo -e "${GREEN}Execute proxy with this command: ./winter${ENDCOLOR}"
+chmod +x winter
